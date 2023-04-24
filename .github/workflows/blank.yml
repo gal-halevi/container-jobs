@@ -23,6 +23,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: |
-          python
-          from ruamel.yaml import YAML
+        run: python script.py
